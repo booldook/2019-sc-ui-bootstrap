@@ -262,8 +262,11 @@ line breaks.
 			<button type="button" class="btn btn-primary">Samsung</button>
 			<div class="btn-group">
 				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-				Sony <span class="caret"></span></button>
+					Sony <span class="caret"></span></button>
 				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">Tablet</a></li>
+					<li><a href="#">Smartphone</a></li>
+					<li class="divider"></li>
 					<li><a href="#">Tablet</a></li>
 					<li><a href="#">Smartphone</a></li>
 				</ul>
@@ -271,7 +274,7 @@ line breaks.
 		</div>
 		<div class="btn-group" style="margin-top:16px;">
 			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-			Sony <span class="caret"></span></button>
+				Sony <span class="caret"></span></button>
 			<ul class="dropdown-menu" role="menu">
 				<li><a href="#">Tablet</a></li>
 				<li><a href="#">Smartphone</a></li>
@@ -293,7 +296,7 @@ line breaks.
 		<div class="jumbotron" style="margin-top:100px;">
 			<h2>아이콘(glyphicon) Bootstrap</h1>
 		</div>
-		<p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p> 
+		<p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
 		<p>Envelope icon as a link:
 			<a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
 		</p>
@@ -308,10 +311,10 @@ line breaks.
 				<span class="glyphicon glyphicon-search"></span> Search
 			</button>
 		</p>
-		<p>Print icon: <span class="glyphicon glyphicon-print"></span></p> 
+		<p>Print icon: <span class="glyphicon glyphicon-print"></span></p>
 		<p>Print icon on a styled link button:
 			<a href="#" class="btn btn-success btn-lg">
-				<span class="glyphicon glyphicon-print"></span> Print 
+				<span class="glyphicon glyphicon-print"></span> Print
 			</a>
 		</p>
 		<div class="alert alert-danger">
@@ -331,26 +334,26 @@ line breaks.
 		<span class="label label-danger">Danger Label</span>
 		<p></p>
 		<div class="progress">
-			<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
-			aria-valuemin="0" aria-valuemax="100" style="width:40%">
+			<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+			 style="width:40%">
 				40% Complete (success)
 			</div>
 		</div>
 		<div class="progress">
-			<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
-			aria-valuemin="0" aria-valuemax="100" style="width:50%">
+			<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"
+			 style="width:50%">
 				50% Complete (info)
 			</div>
 		</div>
 		<div class="progress">
-			<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
-			aria-valuemin="0" aria-valuemax="100" style="width:60%">
+			<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+			 style="width:60%">
 				60% Complete (warning)
 			</div>
 		</div>
 		<div class="progress">
-			<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
-			aria-valuemin="0" aria-valuemax="100" style="width:70%">
+			<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+			 style="width:70%">
 				70% Complete (danger)
 			</div>
 		</div>
@@ -361,7 +364,111 @@ line breaks.
 			<li><a href="#">4</a></li>
 			<li><a href="#">5</a></li>
 		</ul>
+		<ul class="pagination pagination-lg">
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+		</ul>
 
+		<ul class="pagination pagination-sm">
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+		</ul>
+
+		<ul class="breadcrumb">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Private</a></li>
+			<li><a href="#">Pictures</a></li>
+			<li class="active">Vacation</li>
+		</ul>
+		<ul class="pager">
+			<li><a href="#">Previous</a></li>
+			<li><a href="#">Next</a></li>
+		</ul>
+		<ul class="pager">
+			<li class="previous"><a href="#">Previous</a></li>
+			<li class="next"><a href="#">Next</a></li>
+		</ul>
+		<div class="jumbotron" style="margin-top:100px;">
+			<h2>Grouping 모듈 Bootstrap</h1>
+		</div>
+		<ul class="list-group">
+			<li class="list-group-item">First item</li>
+			<li class="list-group-item">Second item</li>
+			<li class="list-group-item">Third item</li>
+		</ul>
+		<ul class="list-group">
+			<li class="list-group-item">New <span class="badge">12</span></li>
+			<li class="list-group-item">Deleted <span class="badge">5</span></li>
+			<li class="list-group-item">Warnings <span class="badge">3</span></li>
+		</ul>
+		<div class="list-group">
+			<a href="#" class="list-group-item">First item</a>
+			<a href="#" class="list-group-item">Second item</a>
+			<a href="#" class="list-group-item">Third item</a>
+		</div>
+		<ul class="list-group">
+			<li class="list-group-item list-group-item-success">First item</li>
+			<li class="list-group-item list-group-item-info">Second item</li>
+			<li class="list-group-item list-group-item-warning">Third item</li>
+			<li class="list-group-item list-group-item-danger">Fourth item</li>
+		</ul>
+		<div class="list-group">
+			<a href="#" class="list-group-item active">
+				<h4 class="list-group-item-heading">First List Group Item Heading</h4>
+				<p class="list-group-item-text">List Group Item Text</p>
+			</a>
+			<a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">Second List Group Item Heading</h4>
+				<p class="list-group-item-text">List Group Item Text</p>
+			</a>
+			<a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">Third List Group Item Heading</h4>
+				<p class="list-group-item-text">List Group Item Text</p>
+			</a>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">Panel Heading</div>
+			<div class="panel-body">Panel Content</div>
+			<div class="panel-footer">Panel Footer</div>
+		</div>
+		<div class="panel-group">
+			<div class="panel panel-default">
+				<div class="panel-heading">Panel with panel-default class</div>
+				<div class="panel-body">Panel Content</div>
+			</div>
+			<div class="panel panel-primary">
+				<div class="panel-heading">Panel with panel-primary class</div>
+				<div class="panel-body">Panel Content</div>
+			</div>
+			<div class="panel panel-success">
+				<div class="panel-heading">Panel with panel-success class</div>
+				<div class="panel-body">Panel Content</div>
+			</div>
+			<div class="panel panel-info">
+				<div class="panel-heading">Panel with panel-info class</div>
+				<div class="panel-body">Panel Content</div>
+			</div>
+			<div class="panel panel-warning">
+				<div class="panel-heading">Panel with panel-warning class</div>
+				<div class="panel-body">Panel Content</div>
+			</div>
+			<div class="panel panel-danger">
+				<div class="panel-heading">Panel with panel-danger class</div>
+				<div class="panel-body">Panel Content</div>
+			</div>
+		</div>
+		<div>Collapse: </div>
+		<button data-toggle="collapse" data-target="#demo" class="btn btn-danger">Collapsible</button>
+		<div id="demo" class="collapse panel panel-info">
+			<div class="panel-heading">Panel with panel-danger class</div>
+			<div class="panel-body">Panel Content</div>
+		</div>
 
 
 
