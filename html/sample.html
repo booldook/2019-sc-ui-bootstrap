@@ -10,10 +10,20 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<style>
+		body {
+			margin-bottom: 500px;
+		}
+
+		/* ul, li {list-style: none;} */
+	</style>
 </head>
 
 <body>
 	<div class="container">
+		<div class="jumbotron">
+			<h1>텍스트와 관련된 Bootstrap</h1>
+		</div>
 		<h1>Bootstrap h1 <small>Sub <mark>subject</mark></small></h1>
 		<h2>Bootstrap h2 <small>Sub <abbr title="제목입니다.">subject</abbr></small></h2>
 		<h3>Bootstrap h3 <small>Sub subject</small></h3>
@@ -43,7 +53,139 @@
 			<dt>Milk</dt>
 			<dd>- white cold drink</dd>
 		</dl>
-		<p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
+		<p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a
+			document.</p>
+		<p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+		<pre>
+Text in a pre element
+is displayed in a 		fixed-width
+font,and it preserves
+both spaces and
+line breaks.
+		</pre>
+		<div class="text-primary">아버지를 아버지라 부르지 못하고....</div>
+		<div class="text-muted">아버지를 아버지라 부르지 못하고....</div>
+		<div class="text-info">아버지를 아버지라 부르지 못하고....</div>
+		<div class="text-danger">아버지를 아버지라 부르지 못하고....</div>
+		<div class="text-success">아버지를 아버지라 부르지 못하고....</div>
+		<div class="text-warning">아버지를 아버지라 부르지 못하고....</div>
+		<div class="bg-primary">아버지를 아버지라 부르지 못하고....</div>
+		<div class="bg-info">아버지를 아버지라 부르지 못하고....</div>
+		<div class="bg-danger">아버지를 아버지라 부르지 못하고....</div>
+		<div class="bg-success">아버지를 아버지라 부르지 못하고....</div>
+		<div class="bg-warning">아버지를 아버지라 부르지 못하고....</div>
+		<p class="text-left">Left-aligned text.</p>
+		<p class="text-right">Right-aligned text.</p>
+		<p class="text-center">Center-aligned text.</p>
+		<p class="text-left">Justified text. Justified text. Justified text. Justified text. Justified text. Justified text.
+			Justified text. Justified text. Justified text. Justified text. Justified text. Justified text.</p>
+		<p class="text-justify">Justified text. Justified text. Justified text. Justified text. Justified text. Justified
+			text. Justified text. Justified text. Justified text. Justified text. Justified text. Justified text.</p>
+		<p class="text-nowrap">No wrap text. No wrap text. No wrap text. No wrap text. No wrap text. No wrap text. No wrap
+			text. No wrap text.</p>
+		<p class="text-lowercase">Lowercased text.</p>
+		<p class="text-uppercase">Uppercased text.</p>
+		<p class="text-capitalize">Capitalized text.</p>
+		<ul>
+			<li style="list-style: none;">Coffee</li>
+			<li>Milk</li>
+		</ul>
+		<ul class="list-unstyled">
+			<li>Coffee</li>
+			<li>Milk</li>
+		</ul>
+		<ul class="list-inline">
+			<li>Coffee</li>
+			<li>Tea</li>
+			<li>Milk</li>
+		</ul>
+		<dl class="dl-horizontal">
+			<dt>Coffee</dt>
+			<dd>- black hot drink</dd>
+			<dt>Milk</dt>
+			<dd>- white cold drink</dd>
+		</dl>
+		<pre class="pre-scrollable" style="height:100px;">Text in a pre element
+			is displayed in a fixed-width
+			font, and it preserves
+			both      spaces and
+			line breaks.</pre>
+
+		<div class="jumbotron" style="margin-top:100px;">
+			<h1>테이블과 관련된 Bootstrap</h1>
+		</div>
+		<style>
+			/* table {width: 100%;}
+		th, td {padding: 8px; text-align: center;} */
+		</style>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>이름</th>
+					<th>국어</th>
+					<th>영어</th>
+					<th>수학</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>홍길동</td>
+					<td>80점</td>
+					<td>75점</td>
+					<td>85점</td>
+				</tr>
+				<tr>
+					<td>홍길순</td>
+					<td>85점</td>
+					<td>95점</td>
+					<td>95점</td>
+				</tr>
+				<tr>
+					<td>홍길만</td>
+					<td>70점</td>
+					<td>75점</td>
+					<td>75점</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="table-responsive">
+			<table class="table table-bordered table-hover table-condensed table-striped text-center" style="margin-top:50px;">
+				<thead class="bg-primary">
+					<tr>
+						<th class="text-center">이름</th>
+						<th class="text-center">국어</th>
+						<th class="text-center">영어</th>
+						<th class="text-center">수학</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>홍길동</td>
+						<td>80점</td>
+						<td>75점</td>
+						<td>85점</td>
+					</tr>
+					<tr>
+						<td>홍길순</td>
+						<td>85점</td>
+						<td>95점</td>
+						<td>95점</td>
+					</tr>
+					<tr>
+						<td>홍길만</td>
+						<td>70점</td>
+						<td>75점</td>
+						<td>75점</td>
+					</tr>
+					<tr>
+						<td>홍길이</td>
+						<td>70점</td>
+						<td>75점</td>
+						<td>75점</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
 </body>
 
