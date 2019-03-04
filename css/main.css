@@ -10,3 +10,6 @@ header {font-size: 1.5rem;}
 nav > div {padding: 16px; display:inline-block;}
 nav > div:hover {background-color: #ccc;}
 
+/* footer */
+footer .label {display:inline-block; margin:6px 2px;}
+
