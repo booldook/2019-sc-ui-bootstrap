@@ -1,0 +1,5 @@
+.img {width: 100%;}
+
+header {font-size: 2rem;}
+header > :first-child:hover {background-color: #aaa;} 
+
