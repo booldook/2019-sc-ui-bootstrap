@@ -5,7 +5,8 @@ html, body {font-family: 'Lora', serif; font-size: 16px;}
 .img {width: 100%;}
 
 /* header */
-header {font-size: 2rem;}
-.tops > div, .tops > nav {padding: 16px;}
-nav > div:hover {background-color: #ccc; display:inline-block;}
+header {font-size: 1.5rem;}
+.tops > div {padding: 16px;}
+nav > div {padding: 16px; display:inline-block;}
+nav > div:hover {background-color: #ccc;}
 
